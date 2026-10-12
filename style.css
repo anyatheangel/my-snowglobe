@@ -2,7 +2,7 @@ body{
     margin: 0;
     color: #162d4f;
     background: linear-gradient(#e6f4ff, #ffffff)
-    font-family: "Libre Caslon Text", Georgia, serif;
+    font-family: 'Death Note Font', sans-serif;
 }
 
 h1 {
@@ -37,6 +37,7 @@ main {
 
 #message {
     font-style: italic;
+    text-align: center;
 }
 
 .globe {
@@ -50,7 +51,9 @@ main {
 }
 
 .scene{
-    width: 78%
+    height: 150px;
+    width: 150px;
+    border-radius: 50%
 }
 
 button { 
@@ -70,10 +73,10 @@ button:hover {
 
 @keyframes shake {
     0%, 100% { transform: translateX(0) rotate(0deg); }
-    20% { transform: translateX(-0.6rem) rotate(-4deg); }
-    40% { transform: translateX(0.6rem) rotate(4deg); }
-    60% { transform: translateX(-0.4rem) rotate(-2deg); }
-    80% { transform: translateX(0.4rem) rotate(2deg); }
+    20% { transform: translateX(-0.7rem) rotate(-5deg); }
+    40% { transform: translateX(0.7rem) rotate(5deg); }
+    60% { transform: translateX(-0.5rem) rotate(-3deg); }
+    80% { transform: translateX(0.5rem) rotate(3deg); }
 }
 
 .globe.shaking {
