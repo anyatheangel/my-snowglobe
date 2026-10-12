@@ -1,17 +1,25 @@
+/* imported death note font */
+@import url('https://fonts.cdnfonts.com/css/death-note-font');
+
 body{
     margin: 0;
     color: #162d4f;
-    background: linear-gradient(#e6f4ff, #ffffff)
+    background-image: url('ryukbgsnowglobe.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
     font-family: 'Death Note Font', sans-serif;
 }
 
 h1 {
-    color: #235fd4;
+    color: #f1f2de;
     font-size: 2.5rem;
 }
 
 .tagline {
-    color: #df5034;
+    color: #551143;
 }
 
 .big-boy {
@@ -26,8 +34,8 @@ main {
 }
 
 .globe-card{
-    background: #fdf7e8;
-    border: 2px solid #235fd4;
+    background: #d2c297;
+    border: 5px double #151d2c;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -38,13 +46,14 @@ main {
 #message {
     font-style: italic;
     text-align: center;
+    color:#b16b2e;
 }
 
 .globe {
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
-    background: radial-gradient(circle at 30% 25%, #ffffff, #cfe6ff 65%, #9dc4ef);
+    background: radial-gradient(circle at 30% 25%, #d7cf87, #b16b2e 65%, #000000);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +68,7 @@ main {
 button { 
     font: inherit; 
     color: #ffffff;
-    background: #df5034;
+    background: #000000;
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
@@ -67,7 +76,7 @@ button {
 }
 
 button:hover {
-    background: #a43835;
+    background: #3f1918;
     transform: scale(1.05);
 }
 
@@ -81,4 +90,13 @@ button:hover {
 
 .globe.shaking {
     animation: shake 600ms ease;
+}
+
+/* ensures this part stays fixed to bottom of page even if user scrolls*/
+footer {
+    color: rgb(219, 225, 188);
+    opacity: 30%;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
 }
