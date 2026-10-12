@@ -10,6 +10,8 @@ const messages = [
     "\"someone has to do it, so why not me?\"",
     "\"i'm the one who'll become the god of a new world that everyone desires!\"", 
     "\"i'll take a potato chip... and eat it!\"",
+    "\"this is the first time in my life i've been provoked to hit a woman.\"",
+    "\"there was no other way, the world had to be fixed... a purpose given to ME!\""
 ];
 
 button.addEventListener("click", () => {
